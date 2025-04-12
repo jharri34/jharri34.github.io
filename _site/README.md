@@ -16,12 +16,6 @@
 </h1>
 
 <br/>
-Svelte
-https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-oop.html
-https://sveltestrap.js.org/?path=/docs/sveltestrap-overview--docs
-https://svelte.dev/docs/svelte/overview
-https://tailwindcss.com/docs/installation/using-vite
-https://docs.fontawesome.com/web/setup/get-started
 
 <div align="center">
 	<!-- <a href="https://github.com/jharri34/jharri34.github.io">

@@ -605,3 +605,33 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.<br/>
 Copyright &copy; 2021 Jayant Goel. All rights reserved. 
+
+
+<!-- <div class="header-content-inner">
+	
+	
+	<hr>
+	Software engineer with extensive experience in Java Development.<br>
+	Skilled in both practical and theoretical aspects of software engineering.<br> 
+	Expertise in decision-making, data analysis, problem-solving and innovative solutions.<br>
+	<a href="/about.html" class="btn btn-primary btn-xl page-scroll">About Me</a>
+</div> -->
+
+
+<!-- <div class="call-to-action">
+	<h2>Create Innovate and Iterate</h2>
+	<p>My goal is to create innovative solutions that solve real-world problems. I am passionate about using technology to make a positive impact on society.</p>
+	<p>With a strong background in software engineering, I am committed to delivering high-quality solutions that meet the needs of my clients and users.</p>
+	<p>My experience includes working with a variety of programming languages and frameworks, and I am always eager to learn new technologies and improve my skills.</p>
+	<p>Whether you are looking for a software engineer to help with a specific project or a long-term partner to help you achieve your goals, I am here to help.</p>
+	<p>Let's work together to create something elegant & efficient!</p>
+	<a href="/portfolio.html" class="btn btn-primary btn-xl page-scroll">Portfolio</a>
+
+</div>
+
+<div class="call-to-action">
+	<h2>Education:</h2>
+	<hr>
+	University of Alabama (Birmingham, AL)
+	<br>
+	BSc in Computer Science & Electrical Engineering -->

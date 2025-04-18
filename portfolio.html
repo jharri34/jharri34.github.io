@@ -2,23 +2,20 @@
 layout: default
 title: Portfolio
 ---
-<section class="no-padding" id="portfolio">
-	<div class="container-fluid">
-		<div class="row no-gutter">
-			{% for portfolio_item in site.portfolio %}
-					<strong>{{ portfolio_item.company_name }}</strong>
-                    ({{ portfolio_item.location }})
-                    <br>
-                    <strong>{{ portfolio_item.job_title }}</strong>
-                    <br>							
-                    {{ portfolio_item.start_date| date: "%B %Y" }}
-                    - {{ portfolio_item.end_date | date: "%B %Y" }}
-                    <br>
-                    <a href="{{ portfolio_item.url }}" target="_blank">View More</a>
-					<br>
-					<br>
-                    
-			{% endfor %}
-		</div>
-	</div>
-</section>
+<ul class="list-group">
+	{% for portfolio_item in site.portfolio %}
+		<li class="list-group-item">
+			<strong>{{ portfolio_item.company_name }}</strong>
+			({{ portfolio_item.location }})
+			<br>
+			<strong>{{ portfolio_item.job_title }}</strong>
+			<br>							
+			{{ portfolio_item.start_date | date: "%B %Y" }}
+			- {{ portfolio_item.end_date | date: "%B %Y" }}
+			<br>
+			<a href="{{ portfolio_item.url }}" target="_blank">View More</a>
+			<br>
+			<br>
+		</li>
+	{% endfor %}
+</ul>

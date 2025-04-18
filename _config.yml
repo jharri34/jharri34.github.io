@@ -1,18 +1,24 @@
+author:
+  name: 'Jamall Harris'
+  email: 'harrisjayjamall@gmail.com'
+  phone: '404.910.2257'
+description: >- # this means to ignore newlines until "baseurl:"
+  Software engineer with strong Java skills, focused on building elegant, 
+  innovative solutions that solve real-world problems. Passionate about learning, creating, 
+  and making a positive impact.
+social_links:
+  github:  'https://github.com/jharri34'
+  linkedin: 'https://www.linkedin.com/in/jamall-harris-8a6a3952/'
+    
 collections:
-  authors:
-    output: true
   portfolio:
     output: true
   
+  
 
-include: ['_authors']
+
 
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
   - scope:
       path: ""
       type: "posts"
@@ -23,7 +29,10 @@ defaults:
     values:
       layout: "default"
 
+
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+

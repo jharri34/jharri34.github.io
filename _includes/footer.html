@@ -1,0 +1,30 @@
+<hr>
+<footer class="footer mt-auto py-3 bg-light h-card">
+    <data class="u-url" href="{{ "/" | relative_url }}"></data>
+    <div class="container py-3">
+      <div class="row">
+        <div class="col">
+          {%- if site.author %}
+          <ul class="contact-list list-unstyled">
+            {% if site.author.name -%}
+              <li class="p-name">{{ site.author.name | escape }}</li>
+            {% endif -%}
+            {% if site.author.email -%}
+              <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            {%- endif %}
+            {% if site.author.phone -%}
+            <li><a class="d-block text-decoration-none" href="tel:{{ site.author.phone }}">{{ site.author.phone }}</a></li>
+            {%- endif %}
+          </ul>
+          {%- endif %}
+         
+        </div>
+        <div class="col">
+          <ul class="text-center list-inline">
+            <li class="list-inline-item"><a rel="me" class="link-secondary" href="{{ site.social_links.github }}"><i class="bi bi-github"role="img" aria-label="GitHub"></i></a></li>
+            <li class="list-inline-item"><a rel="me" class="link-secondary" href="{{ site.social_links.linkedin }}"><i class="bi bi-linkedin"role="img" aria-label="LinkedIn"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>

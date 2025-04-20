@@ -4,6 +4,8 @@ location : Atlanta, GA
 job_title: Research Scientist I
 start_date: Nov. 2018
 end_date:  Nov. 2023
+image: /img/GTRI.jpeg
+tags: Java Groovy Grails Spring Javascript PostgreSql Docker Kubernetes Helm AWS CloudFormation Terraform Ansible Jenkins Rancher Prometheus Grafana
 ---
 
 - Led large-scale, multi-node application development and deployment 

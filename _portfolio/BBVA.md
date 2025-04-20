@@ -4,6 +4,8 @@ location : Birmingham, AL
 job_title: Software Developer/Engineer/Automation/Tester
 start_date: Oct. 2017
 end_date:  Nov. 2018
+image: /img/BBVA.png
+tags: Java Selenium Maven Cucumber TestNG Bamboo RestAssured Appium
 ---
 
 - Developed automated test cases using Gherkin syntax and Java in 

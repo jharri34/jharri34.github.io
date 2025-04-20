@@ -4,6 +4,8 @@ location : Birmingham, AL
 job_title: Lead Software Developer
 start_date: June 2013
 end_date:  Mar. 2017
+image: /img/UAB.png
+tags : Java C# Python Bash Android Phonegap Perl Slurm Html Javascript CSS
 ---
 
 - Frontend and backend development for web and mobile applications, 

@@ -2,9 +2,28 @@
 layout: default
 title: Skills
 ---
-<ul class="list-group">
-{% for skill in site.data.skills %}
-<li class="list-group-item">{{skill}}</li>
-    
-  {% endfor %}
-</ul>
+<section class="py-5 text-center container">
+	<div class="row py-lg-5">
+	  <div class="col-lg-6 col-md-8 mx-auto">
+		<h1 class="fw-light">Welcome in my Portfolio</h1>
+		<p class="lead text-muted">Here you can find external websites with my artwork.</p>
+		<!-- <p>
+		  <a href="#" class="btn btn-primary my-2">Main call to action</a>
+		  <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+		</p> -->
+	  </div>
+	</div>
+</section>
+
+<section  class="page-section bg-light" id="about">
+  <div class="container">
+      <div class="row">
+        <ul class="list-group">
+        {% for skill in site.data.skills %}
+        <li class="list-group-item">{{skill}}</li>
+            
+          {% endfor %}
+        </ul>
+    </div>
+  </div>
+</section>

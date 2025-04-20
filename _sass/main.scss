@@ -1,8 +1,12 @@
-html, body {
-    height: 100%;
-    width: 100%;
-}
-header {
-    @include background-cover;
-    background-image: url('../assets/img/header.jpg');
+.hero {
+    background: url(../img/hero.jpg) no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+   
 }

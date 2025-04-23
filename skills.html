@@ -2,20 +2,61 @@
 layout: default
 title: Skills
 ---
-<section class="py-5 text-center container">
-	<div class="row py-lg-5">
-	  <div class="col-lg-6 col-md-8 mx-auto">
-		<h1 class="fw-light">Welcome in my Portfolio</h1>
-		<p class="lead text-muted">Here you can find external websites with my artwork.</p>
-		<!-- <p>
-		  <a href="#" class="btn btn-primary my-2">Main call to action</a>
-		  <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-		</p> -->
-	  </div>
-	</div>
-</section>
+
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+  <div class="col-md-6 p-lg-5 mx-auto my-5">
+    <h1 class="display-3 fw-bold">Skills</h1>
+    <h3 class="fw-normal text-muted mb-3">I have a wide range of skills thyat help me create simple but elegant solutions to complex problems. These are some of my main skills</h3>
+    <div class="d-flex gap-3 justify-content-center lead fw-normal">
+      <a class="icon-link" href="{{ site.baseurl }}/portfolio">
+        Portfolio
+        
+      </a>
+      <a class="icon-link" href="#">
+        Resume
+        <svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg>
+      </a>
+    </div>
+  </div>
+  <div class="product-device shadow-sm d-none d-md-block"></div>
+  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
+<div class="product-device shadow-sm d-none d-md-block"></div>
+<div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
 
 <section  class="page-section bg-light" id="about">
+  <!-- <div class="container">
+      <div class="row">
+        {% for skill in site.data.skills %}
+        {% assign column = forloop.index0 | modulo: 4 %}
+        {% if column == 0 %}
+        <div class="row">
+          
+        {% endif %}
+        
+        <div class="col">{{skill}}</div>
+        
+        {% if column == 3 or forloop.last %}
+          
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+  </div> -->
+   <div class="container">
+      <div class="row row-cols-4">
+        {% for skill in site.data.skills %}  
+        <div class="col">{{skill}}</div>
+        {% endfor %}
+        </div>
+        
+      </div>
+  </div>
+
+</section>
+
+
+<!-- <section  class="page-section bg-light" id="about">
   <div class="container">
       <div class="row">
         <ul class="list-group">
@@ -26,4 +67,4 @@ title: Skills
         </ul>
     </div>
   </div>
-</section>
+</section> -->

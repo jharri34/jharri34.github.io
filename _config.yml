@@ -1,4 +1,5 @@
 title: Jamall Harris
+email: harrisjayjamall@gmail.com
 author:
   name: 'Jamall Harris'
   email: 'harrisjayjamall@gmail.com'
@@ -12,6 +13,8 @@ social_links:
   linkedin: 'https://www.linkedin.com/in/jamall-harris-8a6a3952/'
 collections:
   portfolio:
+    output: true
+  skills:
     output: true
   
 sass:

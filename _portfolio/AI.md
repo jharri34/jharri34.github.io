@@ -5,7 +5,7 @@ job_title: Founder/CEO
 start_date: July 2014
 end_date:  Present
 image: /img/AbsoluteInfinity.png
-tags: Python Java TensorFlow PyTorch Keras CUDA Java Scikit-Learn Docker Kubernetes Wordpress NLTK Rails ElasticSearch Redis Sass Node Grunt Bash C HTML CSS JS REACT
+tags: Python Java TensorFlow PyTorch Keras CUDA Java Scikit-Learn Docker Kubernetes Wordpress NLTK Rails ElasticSearch Redis Sass Node Grunt Bash C HTML CSS JS React
 ---
 - Developed SendEdge (Janaury 2025), a deliverability platform leveraging Python, Torch, and HuggingFace API's. Implemented AI models to identify images in emails and automatically generate captions in alt ids. Additionally, created an AI-powered system to design email templates based on well-known and tested email formats, enhancing email engagement and usability.
 - Built tools for Diamond Life(Nov 2024), a model and art business, to sort and manage image portfolios efficiently. Developed AI-powered solutions to intelligently organize, create and schedule social media posts, as well as intelligent suggestions for blog content using local ai models

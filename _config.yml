@@ -16,13 +16,12 @@ collections:
     output: true
   skills:
     output: true
+  projects:
+    output: true
   
 sass:
   sass_dir: _sass
   style: compressed
-
-
-
 
 defaults:
   - scope:
@@ -41,4 +40,5 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  
 

@@ -1,52 +1,112 @@
 # This file contains a list of skills and technologies used in the project.
-- Python
-- Java
-- C
-- C#
-- Ruby
-- Groovy
-- Bash
-- Perl
-- HTML
-- CSS
-- JavaScript
-- TypeScript
-- TensorFlow
-- PyTorch
-- Keras
-- Rails
-- Spring
-- Grails
-- React
-- Angular
-- Handlebars
-- Scikit-Learn
-- NLTK
-- Docker
-- Kubernetes
-- Helm
-- AWS
-- CloudFormation
-- Terraform
-- Ansible
-- Jenkins
-- Rancher
-- Prometheus
-- Grafana
-- Octopus
-- Bamboo
-- Selenium
-- Maven
-- Cucumber
-- TestNG
-- RestAssured
-- Appium
-- Phonegap
-- Slurm
-- PostgreSQL
-- Redis
-- Wordpress
-- ElasticSearch
-- Sass
-- Node
-- Grunt
+- category: programming_languages
+  skills:
+  - Python
+  - Java
+  - C
+  - C#
+  - Ruby
+  - Groovy
+  - Bash
+  - Perl
+  - JavaScript
+
+- category: ai
+  skills:
+  - TensorFlow
+  - PyTorch
+  - Keras
+  - Scikit-Learn
+  - NLTK
+  - OpenCV
+  - SpaCy
+  - Hugging Face
+  - Scikit-Learn
+  - NLTK
+  - LangChain
+  
+- category: devops
+  skills:
+  - Git
+  - GitHub
+  - Bitbucket
+  - GitLab
+  - JIRA
+  - Docker
+  - Kubernetes
+  - Helm
+  - AWS
+  - CloudFormation
+  - Terraform
+  - Ansible
+  - Jenkins
+  - Rancher
+  - Prometheus
+  - Grafana
+  
+- category: sdet
+  skills:
+  - Selenium
+  - Appium
+  - TestNG
+  - Cucumber
+  - RestAssured
+  - JUnit
+  - Mockito
+  - Pytest
+  - Postman
+  - Bamboo
+  - Maven
+  
+- category: cloud
+  skills:
+  - AWS
+  - Azure
+  - Google Cloud
+  - Octopus
+  - Vagrant
+  - Heroku
+  - Rancher
+  - Terraform
+  - Ansible
+  - CloudFormation
+
+- category: frontend
+  skills:
+  - React
+  - Angular
+  - jQuery
+  - Bootstrap
+  - Materialize CSS
+  - SASS
+  - SCSS
+  - Handlebars
+  - Jekyll
+
+- category: backend
+  skills:
+  - Node.js
+  - Django
+  - Flask
+  - Spring Boot
+  - Ruby on Rails
+  - Grails
+
+- category: databases
+  skills:
+  - PostgreSQL
+  - Redis
+  - MongoDB
+  - MySQL
+  - SQLite
+
+- category: other
+  skills:
+  - Wordpress
+  - ElasticSearch
+  - Sass
+  - Node
+  - Grunt
+  - Appium
+  - Phonegap
+  - Slurm

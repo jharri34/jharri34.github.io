@@ -12,9 +12,10 @@
 		<img alt="NodeJS" src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
 		<img alt="Docker" src="https://img.shields.io/badge/Docker-0db7ed?style=flat&logo=docker&logoColor=white"/>
 		<img alt="Open Source? Yes!" src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github"/> 
+
 	</p>
 </h1>
-
+https://github.com/pirafrank/jekyll-simple-icons
 <br/>
 Svelte
 https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-oop.html
@@ -22,6 +23,9 @@ https://sveltestrap.js.org/?path=/docs/sveltestrap-overview--docs
 https://svelte.dev/docs/svelte/overview
 https://tailwindcss.com/docs/installation/using-vite
 https://docs.fontawesome.com/web/setup/get-started
+https://raviriley.github.io/agency-jekyll-theme-starter/
+
+https://github.com/schlosser/pig.js
 
 <div align="center">
 	<!-- <a href="https://github.com/jharri34/jharri34.github.io">

@@ -20,15 +20,6 @@ SASS, with advanced search functionality.
 - Created Ingrid's Gymnastics (June 2016) using WordPress, Bash, 
 and PHP, incorporating scheduling software, online payment 
 integration, and content management. 
-- Built Zyp Bikeshare (April 2016) using SQL, Mongo Express Node, and React, 
-- Develop TechAlabama (February 2016) using Python, Java, HTML5, 
-CSS3, and JavaScript, 
-- Designed Director Point (January 2016) with Docusign, Webpack, and 
-other tools, emphasizing skills in document management and web 
-application bundling. 
-- Spearheaded the Teals project (January 2016), utilizing Python, Java, 
-HTML5, CSS3, and JavaScript, while mentoring students in programming 
-and engaging in full-stack development. 
-- Developed First Robotics (August 2015) using C and Assembly 
-programming, collaborating with the McWayne Center to create a 
-summer program teaching students robotics and low-level programming
+
+
+

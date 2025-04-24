@@ -6,65 +6,39 @@ title: Skills
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
   <div class="col-md-6 p-lg-5 mx-auto my-5">
     <h1 class="display-3 fw-bold">Skills</h1>
-    <h3 class="fw-normal text-muted mb-3">I have a wide range of skills thyat help me create simple but elegant solutions to complex problems. These are some of my main skills</h3>
+    <h3 class="fw-normal text-muted mb-3">A chaotic mix of creativity, and just enough elegance to make it look intentional and deceptively simple.</h3>
     <div class="d-flex gap-3 justify-content-center lead fw-normal">
       <a class="icon-link" href="{{ site.baseurl }}/portfolio">
+        <i class="bi bi-chevron-left"></i>
         Portfolio
         
       </a>
       <a class="icon-link" href="#">
         Resume
-        <svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg>
+        <i class="bi bi-chevron-right"></i>
       </a>
     </div>
   </div>
-  <div class="product-device shadow-sm d-none d-md-block"></div>
-  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
 </div>
-<div class="product-device shadow-sm d-none d-md-block"></div>
-<div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
 
-<section  class="page-section bg-light" id="about">
-  <!-- <div class="container">
-      <div class="row">
-        {% for skill in site.data.skills %}
-        {% assign column = forloop.index0 | modulo: 4 %}
-        {% if column == 0 %}
-        <div class="row">
-          
-        {% endif %}
-        
-        <div class="col">{{skill}}</div>
-        
-        {% if column == 3 or forloop.last %}
-          
+
+<div class="container">
+  <div class="row row-cols-4">
+    {% for category in site.data.skills %}
+      
+        <div class="col-12 fw-bold justify-content-center">{{category.category|capitalize}}</div>
+        {% for skill in category.skills %}
+        <!-- <div class="col">{{skill}}</div> -->
+        <div class="card col">
+          <div class="card-body">
+            {{skill}}
+          </div>
         </div>
-        {% endif %}
         {% endfor %}
-      </div>
-  </div> -->
-   <div class="container">
-      <div class="row row-cols-4">
-        {% for skill in site.data.skills %}  
-        <div class="col">{{skill}}</div>
-        {% endfor %}
-        </div>
-        
-      </div>
-  </div>
-
-</section>
-
-
-<!-- <section  class="page-section bg-light" id="about">
-  <div class="container">
-      <div class="row">
-        <ul class="list-group">
-        {% for skill in site.data.skills %}
-        <li class="list-group-item">{{skill}}</li>
-            
-          {% endfor %}
-        </ul>
+      
+    {% endfor %}
     </div>
+    
   </div>
-</section> -->
+
+

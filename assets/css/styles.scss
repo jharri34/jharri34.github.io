@@ -1,0 +1,13 @@
+---
+---
+
+
+// This is a Sass file that imports other Sass files and compiles into CSS.
+// It is used to manage styles for the application in a modular way.
+// The @import directive is used to include other Sass files into this main file.
+
+@use "main.scss";
+@use "contact.scss";
+@use "portfolio.scss";
+@use "header.scss";
+@use "footer.scss";

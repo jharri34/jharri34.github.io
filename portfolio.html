@@ -1,0 +1,54 @@
+---
+layout: default
+title: Portfolio
+---
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+	<div class="col-md-6 p-lg-5 mx-auto my-5">
+	  <h1 class="display-3 fw-bold">Portfolio</h1>
+	  <h3 class="fw-normal text-muted mb-3">My work, my experince, and just enough success to keep everyone wondering—brilliance or luck?</h3>
+	  <div class="d-flex gap-3 justify-content-center lead fw-normal">
+		<a class="icon-link" href="{{ site.baseurl }}/projects">
+		  <i class="bi bi-chevron-left"></i>
+		  Projects
+		  
+		</a>
+		<a class="icon-link" href="{{ site.baseurl }}/assets/img/Resume.pdf" >
+      Resume
+      <i class="bi bi-chevron-right"></i>
+    </a>
+	  </div>
+	</div>
+  </div>
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+    {% for entry in site.portfolio %}
+    <div class="col">
+      <a href="{{ entry.link }}" class="text-decoration-none text-dark">
+        <div class="card h-100 shadow-sm transition" style="transition: 0.3s;">
+          <div class="card-body d-flex flex-column text-center">
+            <h5 class="card-title mb-2">{{ entry.company_name }}</h5>
+            <h6 class="card-subtitle mb-3 text-muted">{{ entry.start_date }} - {{ entry.end_date }}</h6>
+			<h6 class="card-subtitle mb-3 text-muted">{{ entry.job_title | strip  | truncatewords: 20 | markdownify }}</h6>
+            <p class="card-text small text-muted" >
+			  
+              {{ entry.content | strip_html| lstrip  | truncatewords: 20 | markdownify }}
+            </p>
+
+            {% if entry.tags %}
+            <div class="d-flex flex-wrap justify-content-center gap-1 mt-2">
+              {% for tag in entry.tags %}
+              <span class="badge bg-light text-dark border">{{ tag }}</span>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  </div>
+  <div class="text-center mt-5">
+    <a href="/contact/" class="btn btn-primary btn-lg">Let's Work Together</a>
+  </div>
+</div>

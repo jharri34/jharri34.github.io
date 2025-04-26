@@ -1,0 +1,41 @@
+<footer class="footer fixed-bottom bg-light border-top shadow-sm py-3">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="container">
+    <div class="row text-center text-md-start align-items-center">
+
+      <!-- Contact Info -->
+      <div class="col-md-6 mb-3 mb-md-0">
+        {%- if site.author %}
+        <ul class="list-unstyled mb-0">
+          {% if site.author.name -%}
+            <li class="h5 mb-2">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.author.email -%}
+            <li><a class="text-decoration-none link-dark" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %}
+          {% if site.author.phone -%}
+            <li><a class="text-decoration-none link-dark" href="tel:{{ site.author.phone }}">{{ site.author.phone }}</a></li>
+          {%- endif %}
+        </ul>
+        {%- endif %}
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col-md-6">
+        <ul class="list-inline mb-0 d-flex justify-content-center justify-content-md-end align-items-center gap-3">
+          <li class="list-inline-item">
+            <a rel="me" class="link-dark fs-3" href="{{ site.social_links.github }}">
+              <i class="bi bi-github" role="img" aria-label="GitHub"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a rel="me" class="link-dark fs-3" href="{{ site.social_links.linkedin }}">
+              <i class="bi bi-linkedin" role="img" aria-label="LinkedIn"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</footer>

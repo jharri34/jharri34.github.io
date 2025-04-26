@@ -1,0 +1,109 @@
+# This file contains a list of skills and technologies used in the project.
+- category: Programming Languages
+  skills:
+  - Python
+  - Java
+  - C
+  - C#
+  - Ruby
+  - Groovy
+  - Bash
+  - Perl
+  - JavaScript
+
+- category: Artificial Intelligence
+  skills:
+  - TensorFlow
+  - PyTorch
+  - Keras
+  - Scikit-Learn
+  - NLTK
+  - OpenCV
+  - SpaCy
+  - Hugging Face
+  - Scikit-Learn
+  - NLTK
+  - LangChain
+  
+- category: Development Operations
+  skills:
+  - Git
+  - GitHub
+  - Bitbucket
+  - GitLab
+  - JIRA
+  - Docker
+  - Kubernetes
+  - Helm
+  - AWS
+  - CloudFormation
+  - Terraform
+  - Ansible
+  - Jenkins
+  - Rancher
+  - Prometheus
+  - Grafana
+  
+- category: Software Development Engineer in Test
+  skills:
+  - Selenium
+  - Appium
+  - TestNG
+  - Cucumber
+  - RestAssured
+  - JUnit
+  - Mockito
+  - Pytest
+  - Postman
+  - Bamboo
+  - Maven
+  
+- category: Cloud Engineering
+  skills:
+  - AWS
+  - Azure
+  - Google Cloud
+  - Octopus
+  - Vagrant
+  - Heroku
+  - Rancher
+  - Terraform
+  - Ansible
+  - CloudFormation
+
+- category: Full stack Engineering
+  skills:
+  - React
+  - Angular
+  - jQuery
+  - Bootstrap
+  - Materialize CSS
+  - SASS
+  - SCSS
+  - Handlebars
+  - Jekyll
+  - Node.js
+  - Django
+  - Flask
+  - Spring Boot
+  - Ruby on Rails
+  - Grails
+
+- category: Databases & Data Management
+  skills:
+  - PostgreSQL
+  - Redis
+  - MongoDB
+  - MySQL
+  - SQLite
+
+- category: Additional Technologies
+  skills:
+  - Wordpress
+  - ElasticSearch
+  - Sass
+  - Node
+  - Grunt
+  - Appium
+  - Phonegap
+  - Slurm

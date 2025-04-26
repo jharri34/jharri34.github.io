@@ -1,0 +1,19 @@
+.transition {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
+}
+
+/* Solid Background Effect */
+.bg-solid {
+  background-color: #ffffff !important;
+}
+
+/* Navbar Size Classes */
+.large-navbar {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.small-navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

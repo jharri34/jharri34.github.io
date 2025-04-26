@@ -5,6 +5,10 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     base64 (0.2.0)
     bigdecimal (3.1.9)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.12.2)
     colorator (1.1.0)
     concurrent-ruby (1.3.5)
     csv (3.3.4)
@@ -12,6 +16,13 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    execjs (2.10.0)
+    faraday (2.13.1)
+      faraday-net_http (>= 2.0, < 3.5)
+      json
+      logger
+    faraday-net_http (3.4.0)
+      net-http (>= 0.5.0)
     ffi (1.17.2)
     ffi (1.17.2-arm64-darwin)
     ffi (1.17.2-x86_64-darwin)
@@ -55,16 +66,33 @@ GEM
       jekyll (>= 4.0, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
+    jekyll-coffeescript (2.0.0)
+      coffee-script (~> 2.2)
+      coffee-script-source (~> 1.12)
+    jekyll-default-layout (0.1.5)
+      jekyll (>= 3.0, < 5.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-gist (1.5.0)
+      octokit (~> 4.2)
+    jekyll-github-metadata (2.16.1)
+      jekyll (>= 3.4, < 5.0)
+      octokit (>= 4, < 7, != 4.4.0)
+    jekyll-optional-front-matter (0.3.2)
+      jekyll (>= 3.0, < 5.0)
+    jekyll-paginate (1.1.0)
+    jekyll-readme-index (0.3.0)
+      jekyll (>= 3.0, < 5.0)
+    jekyll-relative-links (0.7.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
-    jekyll-simple-icons (0.1.3)
-      jekyll (>= 3.7, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-titles-from-headings (0.5.3)
+      jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.10.2)
@@ -76,7 +104,13 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.5.3)
     mercenary (0.4.0)
+    net-http (0.6.0)
+      uri
+    octokit (4.25.1)
+      faraday (>= 1, < 3)
+      sawyer (~> 0.9)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
@@ -96,24 +130,35 @@ GEM
       google-protobuf (~> 4.30)
     sass-embedded (1.87.0-x86_64-linux-gnu)
       google-protobuf (~> 4.30)
+    sawyer (0.9.2)
+      addressable (>= 2.3.5)
+      faraday (>= 0.17.3, < 3)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
     unicode-display_width (2.6.0)
+    uri (0.12.0)
     webrick (1.9.1)
 
 PLATFORMS
   arm64-darwin
-  ruby
   x86_64-darwin
   x86_64-linux
 
 DEPENDENCIES
   jekyll
   jekyll-bootstrap-theme
+  jekyll-coffeescript
+  jekyll-default-layout
   jekyll-feed
+  jekyll-gist
+  jekyll-github-metadata
+  jekyll-optional-front-matter
+  jekyll-paginate
+  jekyll-readme-index
+  jekyll-relative-links
   jekyll-seo-tag
-  jekyll-simple-icons
   jekyll-sitemap
+  jekyll-titles-from-headings
 
 BUNDLED WITH
    2.6.7

@@ -1,0 +1,6 @@
+.card:hover {
+    background-color: #e7f1ff; /* Soft blue highlight */
+    cursor: pointer;
+    transform: scale(1.02); /* Slightly enlarge the card */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }

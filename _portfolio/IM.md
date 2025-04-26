@@ -1,5 +1,5 @@
 ---
-company_name: intermarkgroup
+company_name: Intermark Group
 location : Birmingham, AL
 job_title: Software Developer
 start_date: July 2015

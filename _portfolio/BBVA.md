@@ -1,7 +1,7 @@
 ---
 company_name: BBVA Compass
 location : Birmingham, AL
-job_title: Software Developer/Engineer/Automation/Tester
+job_title: SDET/ Automation Engineer
 start_date: Oct. 2017
 end_date:  Nov. 2018
 image: /img/BBVA.png

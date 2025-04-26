@@ -1,5 +1,5 @@
 # This file contains a list of skills and technologies used in the project.
-- category: programming_languages
+- category: Programming Languages
   skills:
   - Python
   - Java
@@ -11,7 +11,7 @@
   - Perl
   - JavaScript
 
-- category: ai
+- category: Artificial Intelligence
   skills:
   - TensorFlow
   - PyTorch
@@ -25,7 +25,7 @@
   - NLTK
   - LangChain
   
-- category: devops
+- category: Development Operations
   skills:
   - Git
   - GitHub
@@ -44,7 +44,7 @@
   - Prometheus
   - Grafana
   
-- category: sdet
+- category: Software Development Engineer in Test
   skills:
   - Selenium
   - Appium
@@ -58,7 +58,7 @@
   - Bamboo
   - Maven
   
-- category: cloud
+- category: Cloud Engineering
   skills:
   - AWS
   - Azure
@@ -71,7 +71,7 @@
   - Ansible
   - CloudFormation
 
-- category: frontend
+- category: Full stack Engineering
   skills:
   - React
   - Angular
@@ -82,9 +82,6 @@
   - SCSS
   - Handlebars
   - Jekyll
-
-- category: backend
-  skills:
   - Node.js
   - Django
   - Flask
@@ -92,7 +89,7 @@
   - Ruby on Rails
   - Grails
 
-- category: databases
+- category: Databases & Data Management
   skills:
   - PostgreSQL
   - Redis
@@ -100,7 +97,7 @@
   - MySQL
   - SQLite
 
-- category: other
+- category: Additional Technologies
   skills:
   - Wordpress
   - ElasticSearch

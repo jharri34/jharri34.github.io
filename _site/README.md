@@ -14,6 +14,7 @@
 		<img alt="Open Source? Yes!" src="https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github"/> 
 
 	</p>
+  https://github.com/toperkin/staticFormEmails/blob/master/README.md
 </h1>
 https://github.com/pirafrank/jekyll-simple-icons
 <br/>

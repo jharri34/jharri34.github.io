@@ -23,6 +23,7 @@ social_links:
 collections:
   portfolio:
     output: true
+    permalink: /portfolio/:title/
   skills:
     output: true
   projects:

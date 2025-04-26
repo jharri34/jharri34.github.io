@@ -1,4 +1,5 @@
 ---
+layout: portfolio_entry
 company_name: University of Alabama (SEAP/ SPIES/Biology)
 location : Birmingham, AL
 job_title: Lead Software Developer

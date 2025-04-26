@@ -1,4 +1,5 @@
 ---
+layout: portfolio_entry
 company_name: First Robotics 
 location : Birmingham, AL
 job_title: Educator

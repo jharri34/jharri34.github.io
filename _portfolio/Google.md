@@ -1,4 +1,5 @@
 ---
+layout: portfolio_entry
 company_name: Google
 location : Mountain View, CA
 job_title: Intern

@@ -25,25 +25,25 @@ title: Portfolio
     <div class="row g-4">
       {% for entry in site.portfolio %}
       <div class="col-12">
-        <a href="{{ entry.link }}" class="text-decoration-none text-dark">
+        <a href="{{ entry.url }}" class="text-decoration-none text-dark">
           <div class="card shadow-sm transition h-100 w-100 p-3" style="transition: 0.3s;">
             <div class="row g-3 align-items-center">
-  
+        
               <!-- Left Column: Company Info -->
               <div class="col-12 col-md-4 border-end">
                 <div class="d-flex flex-column h-100 justify-content-center">
                   <h5 class="mb-1">{{ entry.company_name }}</h5>
                   <h6 class="text-muted mb-1">{{ entry.start_date }} - {{ entry.end_date }}</h6>
-                  <h6 class="text-muted">{{ entry.job_title | strip | truncatewords: 20 | markdownify }}</h6>
+                  <h6 class="text-muted">{{ entry.job_title }}</h6>
                 </div>
               </div>
-  
+        
               <!-- Right Column: Description and Tags -->
               <div class="col-12 col-md-8">
                 <p class="small text-muted mb-2">
-                  {{ entry.content | strip_html | lstrip | truncatewords: 20 | markdownify }}
+                  {{ entry.content | strip_html | truncatewords: 20 }}
                 </p>
-  
+        
                 {% if entry.tags %}
                 <div class="d-flex flex-wrap gap-2">
                   {% for tag in entry.tags %}
@@ -52,7 +52,7 @@ title: Portfolio
                 </div>
                 {% endif %}
               </div>
-  
+        
             </div>
           </div>
         </a>

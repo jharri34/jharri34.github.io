@@ -1,4 +1,5 @@
 ---
+layout: portfolio_entry
 company_name: Influence Health
 location : Hoover, AL
 job_title: Junior Software Developer

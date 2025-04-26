@@ -1,4 +1,5 @@
 ---
+layout: portfolio_entry
 company_name:  Zyp Bikeshare
 location : Birmingham, AL
 job_title: Software Developer

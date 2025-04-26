@@ -1,4 +1,5 @@
 ---
+layout: portfolio_entry
 company_name: BBVA Compass
 location : Birmingham, AL
 job_title: SDET/ Automation Engineer

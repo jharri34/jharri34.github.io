@@ -1,0 +1,44 @@
+- name: SendEdge
+  date: Jan 2025
+  description: "A deliverability platform leveraging Python, Torch, and HuggingFace. AI-driven image captioning and dynamic email template generation for enhanced engagement."
+  link: https://github.com/jharri34/ImageCaption
+
+- name: Artisan AI Suite
+  date: Nov 2024
+  description: "AI solutions to sort and manage art portfolios, automate social media posting, and generate intelligent blog content suggestions using local AI models."
+  link: https://github.com/jharri34/SortPhotos
+
+- name: AI-Powered Assistant
+  date: June 2024
+  description: "Cloned the personality of a real estate influencer to automate personalized social media content creation, maintaining engagement at scale."
+  link: https://github.com/jharri34/RAG-Langchain
+
+- name: RISE UP
+  date: 
+  description: "A civic platform helping users find local elections and representatives, fostering transparency and engagement through open data initiatives."
+  link: https://github.com/jharri34/RiseUp
+
+- name: Pothole 311
+  date: 
+  description: "An app for bicyclists to report potholes directly to city officials, improving road safety and city responsiveness."
+  link: https://github.com/jharri34/pothole-311
+
+- name: NGHBR
+  date: 
+  description: "A secure, decentralized app empowering marginalized communities with resources, secure communication, and economic independence tools."
+  link: https://github.com/Melanin-Rich-Manifesto/NGHBR-
+
+- name: Surge
+  date: 
+  description: "Real-time heatmap platform using AI to help users connect with others sharing similar interests and values, strengthening community bonds."
+  link: https://github.com/jharri34/surge
+
+- name: Land Bank Marketplace
+  date: 
+  description: "Node.js and Bootstrap-powered site providing information and bidding access for abandoned and tax-delinquent properties, revitalizing communities."
+  link: https://github.com/jharri34/Land_Bank_Marketplace
+
+- name: Bully-At-The-Polls 
+  date: Aug 5, 2020
+  description: "A WordPress-powered site with scheduling, payment integration, and content management for a gymnastics training center."
+  link: https://github.com/jharri34/Bully-At-The-Polls

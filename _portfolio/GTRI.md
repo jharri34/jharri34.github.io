@@ -1,4 +1,5 @@
 ---
+layout: portfolio_entry
 company_name: Georgia Tech Research Institute
 location : Atlanta, GA
 job_title: Research Scientist I

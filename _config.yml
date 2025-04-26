@@ -1,5 +1,9 @@
 title: Jamall Harris
+tagline: 'Software Engineer'
+url: 'https://jharri34.github.io'
+
 email: harrisjayjamall@gmail.com
+
 author:
   name: 'Jamall Harris'
   email: 'harrisjayjamall@gmail.com'
@@ -8,6 +12,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Software engineer with strong Java skills, focused on building elegant, 
   innovative solutions that solve real-world problems. Passionate about learning, creating, 
   and making a positive impact.
+social:
+  name: Jamall Harris
+  links: 
+  - 'https://github.com/jharri34'
+  - 'https://www.linkedin.com/in/jamall-harris-8a6a3952/'
 social_links:
   github:  'https://github.com/jharri34'
   linkedin: 'https://www.linkedin.com/in/jamall-harris-8a6a3952/'

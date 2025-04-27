@@ -6,6 +6,7 @@ job_title: Founder
 start_date: July 2014
 end_date:  Present
 image: /img/AbsoluteInfinity.png
+
 tags: Python Java TensorFlow PyTorch Keras CUDA Java Scikit-Learn Docker Kubernetes Wordpress NLTK Rails ElasticSearch Redis Sass Node Grunt Bash C HTML CSS JS React
 
 ---

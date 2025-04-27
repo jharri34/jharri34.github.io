@@ -22,6 +22,7 @@ social_links:
   linkedin: 'https://www.linkedin.com/in/jamall-harris-8a6a3952/'
 collections:
   portfolio:
+    sort_by: 'end_date'
     output: true
     permalink: /portfolio/:title/
   skills:

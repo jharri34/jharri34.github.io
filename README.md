@@ -1,7 +1,7 @@
 # Jamall Harris' Personal Portfolio
 ![semantic code analysis](https://github.com/jharri34/jharri34.github.io/actions/workflows/codeql.yml/badge.svg)
 ![Deploy Jekyll with GitHub Pages](https://github.com/jharri34/jharri34.github.io/actions/workflows/jekyll-gh-pages.yml/badge.svg)
-![workflow runs triggered by the push event](https://github.com/jharri34/jharri34.github.io/actions/workflows/jekyll-gh-pages.yml/badge.svg?event=push)
+
 ---
 
 ## About the Project

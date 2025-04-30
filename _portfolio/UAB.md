@@ -9,15 +9,17 @@ image: /img/UAB.png
 tags : Java C# Python Bash Android Phonegap Perl Slurm Html Javascript CSS
 ---
 
-- Frontend and backend development for web and mobile applications, 
-utilizing Java, C#, Python, and Bash. 
-- Developed GEO-tagging software for the FBI to analyze phishing 
-scams, leveraging Java for backend programming and data analysis. 
-- Created multiple iOS and Android applications, Cancer Resources App, 
-PEACE-P, and MAXX Bus Routes, using C#, Android, and Phonegap 
-technologies. 
-- Implemented a sequencing algorithm within a shared computing cluster, 
-utilizing Python, Perl, Bash, and Java with the Slurm job scheduler 
-- Created Peace-P V1 and OPENFLOW: Lunch and Learn, emphasizing rapid 
-prototyping and hands-on software development for research-driven 
-solutions. 
+## Key Contributions
+
+- **Web and Mobile Application Development**:
+  - Designed and developed frontend and backend solutions for web and mobile applications using Java, C#, Python, and Bash.
+  - Created multiple iOS and Android applications, including the **Cancer Resources App**, **PEACE-P**, and **MAXX Bus Routes**, using C#, Android, and PhoneGap technologies.
+
+- **GEO-Tagging Software**:
+  - Developed GEO-tagging software for the FBI to analyze phishing scams, leveraging Java for backend programming and data analysis.
+
+- **High-Performance Computing**:
+  - Implemented a sequencing algorithm within a shared computing cluster using Python, Perl, Bash, and Java with the Slurm job scheduler.
+
+- **Rapid Prototyping**:
+  - Created **PEACE-P V1** and **OPENFLOW: Lunch and Learn**, emphasizing rapid prototyping and hands-on software development for research-driven solutions.

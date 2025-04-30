@@ -9,5 +9,18 @@ image: /img/IM.png
 tags: C# .NET JQuery SQL Java Node.js 
 ---
 
-- Implemented cross-site tracking using C#, .NET, and SQL to deliver personalized ad experiences based on user interaction history.
-- Designed and optimized real-time targeting logic and A/B testing analytics using C# and .NET.
+## Key Contributions
+
+- **Scripting and Automation**:
+  - Wrote Bash scripts in a Unix environment to automate deployment and release processes across multiple projects.
+  - Optimized workflows to improve efficiency and reduce manual intervention.
+
+- **Application Deployment**:
+  - Deployed applications in a healthcare environment using tools like Ansible and Octopus.
+  - Ensured smooth and reliable deployments for patient engagement systems.
+
+- **Web Services Development**:
+  - Developed web services using Azure to support patient engagement systems and healthcare applications.
+
+- **Backend Microservices**:
+  - Worked on backend microservices using Ruby, Python, Perl, and Bash to handle data processing and system integration.

@@ -9,13 +9,16 @@ image: /img/BBVA.png
 tags: Java Selenium Maven Cucumber TestNG Bamboo RestAssured Appium
 ---
 
-- Developed automated test cases using Gherkin syntax and Java in 
-Selenium WebDriver, with Maven, Cucumber, and TestNG. 
-- Leveraged Bamboo for continuous integration, running nightly automation 
-scripts 
-- Tested REST API using Java RestAssured, Cucumber, and TestNG, and 
-performed backend testing with complex SQL queries. 
-- Performed mobile app testing w/ Appium for native, hybrid, and web 
-apps on Android and iOS devices using. 
-- Developed internal resource applications with Spring Boot to 
-manage test data sanitation
+- **Automated Testing**:
+  - Developed automated test cases using Gherkin syntax and Java with Selenium WebDriver, Maven, Cucumber, and TestNG.
+  - Leveraged Bamboo for continuous integration, running nightly automation scripts to ensure code quality and stability.
+
+- **API and Backend Testing**:
+  - Tested REST APIs using Java RestAssured, Cucumber, and TestNG.
+  - Performed backend testing with complex SQL queries to validate data integrity and system performance.
+
+- **Mobile App Testing**:
+  - Conducted mobile app testing with Appium for native, hybrid, and web apps on Android and iOS devices.
+
+- **Internal Tools Development**:
+  - Built internal resource applications using Spring Boot to manage test data sanitation and streamline testing workflows.

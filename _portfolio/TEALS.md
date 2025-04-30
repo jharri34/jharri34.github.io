@@ -9,7 +9,16 @@ image: /img/TEALS.png
 tags: Python Java HTML5 CSS3 JavaScript
 ---
 
-- Mentored students in Python, Java, HTML5, CSS3, and JavaScript fundamentals
-- Spearheaded the Teals project (January 2016), with Microsoft
-- Led hands-on instruction and guided students through real-world full-stack development projects
-- Supported STEM engagement with Educators and built foundational coding skills in underrepresented communities
+## Key Contributions
+
+- **Coding Mentorship**:
+  - Mentored students in Python, Java, HTML5, CSS3, and JavaScript fundamentals.
+  - Provided hands-on instruction to guide students through real-world full-stack development projects.
+
+- **TEALS Project Leadership**:
+  - Spearheaded the TEALS project in collaboration with Microsoft (January 2016).
+  - Designed and implemented a curriculum to teach foundational coding skills to high school students.
+
+- **STEM Advocacy**:
+  - Supported STEM engagement by collaborating with educators to promote technology literacy.
+  - Focused on building coding skills in underrepresented communities to inspire future tech leaders.

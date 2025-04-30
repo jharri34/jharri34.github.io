@@ -1,32 +1,33 @@
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
-  <div class="col-md-8 p-lg-5 mx-auto my-5">
-    <h1 class="display-3 fw-bold animate__animated animate__fadeInDown mb-4">Hi, I'm Jamall Harris</h1>
+<div class="position-relative overflow-hidden p-4  p-md-5 m-md-3 text-center bg-body-tertiary">
+  <div class="col-12 col-md-10 col-lg-8 mx-auto my-5">
+    <h1 class="display-4 fw-bold animate__animated animate__fadeInDown mb-4">Hi, I'm Jamall Harris</h1>
     <p class="lead fw-normal text-muted mb-4 animate__animated animate__fadeInUp">
       I build innovative software solutions that solve real-world problems. With expertise in AI, full-stack development, and cloud infrastructure, I create impactful tools that drive results.
     </p>
     <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
-      <a href="#portfolio-section" class="btn btn-primary btn-lg px-4 animate__animated animate__fadeInLeft">Explore My Work</a>
+      <a href="{{#portfolio-section}}" class="btn btn-primary btn-lg px-4 animate__animated animate__fadeInLeft">Explore My Work</a>
       <a href="#contact-section" class="btn btn-outline-dark btn-lg px-4 animate__animated animate__fadeInRight">Get in Touch</a>
     </div>
   </div>
 </div>
 
 <div class="container py-5" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
-  <div class="row g-5">
+  <div class="row g-4">
     <!-- Key Skills Section -->
-    <div id="skills-section" class="col-md-6">
+    <div id="skills-section" class="col-6 col-lg-6 col-md-12 col-sm-12">
       <h3 class="fw-bold animate__animated animate__fadeInLeft mb-3">What I Bring to the Table</h3>
       <ul class="list-group list-group-flush text-start">
         <li class="list-group-item"><strong>Programming Languages:</strong> Python, Java, C, C#, Ruby, JavaScript</li>
         <li class="list-group-item"><strong>AI Expertise:</strong> TensorFlow, PyTorch, Hugging Face, LangChain</li>
         <li class="list-group-item"><strong>Frontend:</strong> React, Angular, Bootstrap, SASS/SCSS</li>
         <li class="list-group-item"><strong>Backend:</strong> Node.js, Django, Flask, Ruby on Rails</li>
-        <li class="list-group-item"><strong>Cloud & DevOps:</strong> AWS, Docker, Kubernetes, Terraform, Jenkins</li>
+        <li class="list-group-item"><strong>Cloud & DevOps:</strong> AWS, Docker, Kubernetes, Terraform, Jenkins</li>  
       </ul>
+      <a class="btn btn-primary btn-lg px-4 mt-3" href="{{ site.url }}//skills" >Go to my Skills</a>
     </div>
 
     <!-- Career Highlights Section -->
-    <div id="portfolio-section" class="col-md-6">
+    <div id="portfolio-section" class="col-6 col-lg-6 col-md-12 col-sm-12">
       <h3 class="fw-bold animate__animated animate__fadeInRight mb-3">Career Highlights</h3>
       <ul class="list-group list-group-flush text-start">
         <li class="list-group-item">
@@ -45,16 +46,18 @@
         </li>
         <li class="list-group-item">
           <h5 class="fw-bold mb-1">BBVA Compass</h5>
-          <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i> Birmingham, AL</p>
+          <p class="text-muted mb-1 "><i class="bi bi-geo-alt"></i> Birmingham, AL</p>
           <p class="text-muted mb-1"><i class="bi bi-calendar"></i> June 2015 - December 2017</p>
           <p class="fw-semibold text-primary">Software Engineer</p>
           <p>Built scalable backend systems and implemented cloud-based solutions for financial services.</p>
-        </li>
+        </li>      
       </ul>
+      <a class="btn btn-primary btn-lg px-4 mt-3" href="{{ site.url }}//portfolio" >Go to my Portfolio</a>
     </div>
 
+    
     <!-- Recent Projects Section -->
-    <div class="col-12">
+    <div class="col-12 col-lg-12 col-md-12 col-sm-12 mt-5">
       <h3 class="fw-bold text-start animate__animated animate__fadeInUp mb-3">Recent Projects</h3>
       <ul class="list-group list-group-flush text-start">
         <li class="list-group-item">AI-powered alt-text generators improving email accessibility</li>
@@ -65,7 +68,7 @@
     </div>
 
     <!-- Call-to-Action Section -->
-    <div id="contact-section" class="col-12 text-center mt-5">
+    <div id="contact-section" class="col-12 col-lg-12 col-md-12 col-sm-12 text-center mt-5">
       <h4 class="fw-bold animate__animated animate__fadeInUp mb-3">Let's Build Something Amazing Together</h4>
       <p class="text-muted animate__animated animate__fadeInUp">
         Ready to take your project to the next level? Reach out to discuss how I can help you achieve your goals.

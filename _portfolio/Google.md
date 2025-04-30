@@ -9,7 +9,16 @@ image: /img/google.png
 tags: Angular Handlebars Ruby Python Java Bash
 ---
 
-- Developed Bash scripts in a Unix environment scripting and automation. 
-- Develop internal applications using Java 
-- Develop backend services using Ruby and Python 
-- Front End Development using Angular and Handlebars 
+## Key Contributions
+
+- **Scripting and Automation**:
+  - Developed Bash scripts in a Unix environment to automate repetitive tasks and improve system efficiency.
+
+- **Backend Development**:
+  - Built and maintained backend services using Ruby and Python to support internal applications.
+
+- **Frontend Development**:
+  - Designed and implemented user interfaces using Angular and Handlebars for internal tools and dashboards.
+
+- **Internal Applications**:
+  - Developed internal applications using Java to streamline workflows and enhance productivity.

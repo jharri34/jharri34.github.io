@@ -2,13 +2,44 @@
 layout: default
 ---
 
+<div class="container my-5" style="min-height: 125vh; padding-top: 150px;">
 
-<div class="container py-5 d-flex align-items-center justify-content-center" style="min-height: 75vh;">
-    <div class="row">
-        <div class="mt-4 col-md-8 col-lg-9">
-            <p>{{ content }}</p>
-        </div>
-        {% include sidebar.html %}
+    <!-- Company Information -->
+    <div class="text-center mb-5">
+        <h1 class="fw-bold mb-3">{{ page.company_name }}</h1>
+        <h4 class="text-muted mb-2">
+            <i class="bi bi-geo-alt"></i> {{ page.location }}
+        </h4>
+        <p class="text-muted mb-2">
+            <i class="bi bi-calendar"></i> {{ page.start_date }} - {{ page.end_date }}
+        </p>
+        <h5 class="fw-semibold text-primary mb-4">{{ page.job_title }}</h5>
     </div>
+    <!-- Breadcrumb Section -->
+    <div class="mb-4">
+        <nav aria-label="breadcrumb">
+            {% include breadcrumbs.html %}
+        </nav>
+    </div>
+
     
+
+    <div class="row">
+        <!-- Main Content -->
+        <div class="col-12 mb-4">
+            <p class="text-justify">{{ content }}</p>
+        </div>
+
+        <!-- Tags Section -->
+        {% if page.tags %}
+        <div class="col-12">
+            <h6 class="fw-bold mb-3">Technologies Used</h6>
+            <div class="d-flex flex-wrap gap-2 justify-content-center">
+                {% for tag in page.tags %}
+                <span class="badge bg-primary text-light">{{ tag }}</span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
 </div>

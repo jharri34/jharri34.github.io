@@ -1,9 +1,9 @@
  <!-- Breadcrumbs -->
  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item">
-        <a href="{{ site.baseurl }}/portfolio" class="text-decoration-none">Portfolio</a>
-      </li>
-      <li class="breadcrumb-item active" aria-current="page">{{ page.company_name }}</li>
-    </ol>
-  </nav>
+  <ol class="breadcrumb fs-4 py-2">
+    <li class="breadcrumb-item">
+      <a href="{{ site.baseurl }}/portfolio#{{ page.url | split: '/' | last }}" class="text-decoration-none fw-bold">Portfolio</a>
+    </li>
+    <li class="breadcrumb-item active fw-bold" aria-current="page">{{ page.company_name }}</li>
+  </ol>
+</nav>

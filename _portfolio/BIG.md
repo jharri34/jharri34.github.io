@@ -9,5 +9,7 @@ image: /img/BIG.jpeg
 tags:  Node CSS3 JQuery
 ---
 
-* Developed and maintained interactive marketing campaigns for multiple clients using Node.js, React, Sass, CSS3, and jQuery
-* Built reusable components and optimized front-end performance for targeted ad delivery
+
+- **Interactive Marketing Campaigns**:
+  - Developed and maintained interactive marketing campaigns for multiple clients using Node.js, React, Sass, CSS3, and jQuery.
+  - Built reusable components to streamline development and ensure consistency across campaigns.

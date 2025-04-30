@@ -9,7 +9,16 @@ image: /img/FIRST.jpeg
 tags: C Assembly 
 ---
 
-- Taught FIRST Robotics curriculum (Aug 2015) using C and Assembly programming
-- Collaborated with the McWane Science Center to launch a summer program focused on robotics and low-level coding
-- Guided students through building and programming functional robots from the ground up
-- Taught core concepts in embedded systems, hardware control, and engineering logic
+## Key Contributions
+
+- **FIRST Robotics Curriculum**:
+  - Taught the FIRST Robotics curriculum using C and Assembly programming languages.
+  - Focused on low-level coding concepts to help students understand hardware-software integration.
+
+- **Summer Robotics Program**:
+  - Collaborated with the McWane Science Center to launch a summer program focused on robotics and embedded systems.
+  - Designed hands-on activities to teach students how to build and program functional robots from the ground up.
+
+- **Core Concepts in Engineering**:
+  - Taught foundational concepts in embedded systems, hardware control, and engineering logic.
+  - Guided students through problem-solving and debugging techniques to enhance their understanding of robotics.

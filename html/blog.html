@@ -1,0 +1,41 @@
+---
+layout: default
+title: Blog
+permalink: blog.html
+---
+
+<div class="container py-5">
+  <h1 class="text-center mb-5">Latest Posts</h1>
+
+  <div class="row">
+    <!-- Blog Posts -->
+    <div class="col-lg-8">
+      <ul class="list-unstyled">
+        {% for post in site.posts %}
+        <li class="mb-4">
+          <h2 class="fw-bold">
+            <a href="{{ post.url }}" class="text-decoration-none text-dark">{{ post.title }}</a>
+          </h2>
+          <p class="text-muted">{{ post.date | date: "%B %d, %Y" }}</p>
+          <p>{{ post.excerpt }}</p>
+          <a href="{{ post.url }}" class="btn btn-primary btn-sm">Read More</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-lg-4">
+      <aside class="sidebar">
+        <h4 class="fw-bold">Recent Posts</h4>
+        <ul class="list-unstyled">
+          {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url }}" class="text-decoration-none">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </aside>
+    </div>
+  </div>
+</div>

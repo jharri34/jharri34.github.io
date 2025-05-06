@@ -9,15 +9,15 @@ permalink: blog.html
 
   <div class="row">
     <!-- Blog Posts -->
-    <div class="col-lg-8">
+    <div class="col-lg-8 col-md-12">
       <ul class="list-unstyled">
         {% for post in site.posts %}
         <li class="mb-4">
-          <h2 class="fw-bold">
+          <h2 class="fw-bold fs-5 fs-md-3">
             <a href="{{ post.url }}" class="text-decoration-none text-dark">{{ post.title }}</a>
           </h2>
-          <p class="text-muted">{{ post.date | date: "%B %d, %Y" }}</p>
-          <p>{{ post.excerpt }}</p>
+          <p class="text-muted fs-6 fs-md-4">{{ post.date | date: "%B %d, %Y" }}</p>
+          <p class="fs-6 fs-md-5">{{ post.excerpt }}</p>
           <a href="{{ post.url }}" class="btn btn-primary btn-sm">Read More</a>
         </li>
         {% endfor %}
@@ -25,13 +25,13 @@ permalink: blog.html
     </div>
 
     <!-- Sidebar -->
-    <div class="col-lg-4">
+    <div class="col-lg-4 col-md-12 mt-4 mt-lg-0">
       <aside class="sidebar">
-        <h4 class="fw-bold">Recent Posts</h4>
+        <h4 class="fw-bold fs-5 fs-md-4">Recent Posts</h4>
         <ul class="list-unstyled">
           {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}" class="text-decoration-none">{{ post.title }}</a>
+          <li class="mb-2">
+            <a href="{{ post.url }}" class="text-decoration-none fs-6 fs-md-4">{{ post.title }}</a>
           </li>
           {% endfor %}
         </ul>

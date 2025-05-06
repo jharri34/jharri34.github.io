@@ -3,73 +3,71 @@ layout: default
 
 ---
 
-<div class="container">
-  <div class="row">
-    <!-- Main Content -->
-    <div class="col-lg-8">
-      <article class="main">
-        <section class="content-chunk">
-          <!-- Post Metadata -->
-          <div class="blog-post-meta clearfix">
-            <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
-            
-            <div class="tags">
-              {% for tag in page.tags %}
-              <span class="badge bg-light text-dark border">{{ tag }}</span>
-              {% endfor %}
+<div class="container py-4">
+    <div class="row">
+      <!-- Main Content -->
+      <div class="col-lg-8 col-md-12">
+        <article class="main">
+          <section class="content-chunk">
+            <!-- Post Metadata -->
+            <div class="blog-post-meta clearfix mb-3">
+              <p class="date text-muted fs-6 fs-md-5">{{ page.date | date: "%B %d, %Y" }}</p>
+              <div class="tags">
+                {% for tag in page.tags %}
+                <span class="badge bg-light text-dark border fs-6 fs-md-5">{{ tag }}</span>
+                {% endfor %}
+              </div>
             </div>
-          </div>
-
-          <!-- Post Content -->
-          <div class="post">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <p class="post-description">{{ page.description }}</p>
-            <div class="post-body">
-              {{ content }}
+  
+            <!-- Post Content -->
+            <div class="post">
+              <h1 class="post-title fs-4 fs-md-3">{{ page.title }}</h1>
+              <p class="post-description text-muted fs-6 fs-md-5">{{ page.description }}</p>
+              <div class="post-body fs-6 fs-md-5">
+                {{ content }}
+              </div>
             </div>
-          </div>
-
-          <!-- Author Section -->
-          <div class="author-section mt-5">
-            <h3>About the Author</h3>
-            
-            <p>
-              <a href="https://twitter.com/{{ page.author_twitter }}" target="_blank" class="btn btn-outline-primary">
-                Follow @{{ page.author_twitter }}
+  
+            <!-- Author Section -->
+            <div class="author-section mt-5">
+              <h3 class="fs-5 fs-md-4">About the Author</h3>
+              <p>
+                <a href="{{ site.social_links.linkedin }}" target="_blank" class="btn btn-outline-primary btn-sm">
+                  Follow @{{ site.social_links.linkedin }}
+                </a>
+              </p>
+            </div>
+  
+            <!-- Social Sharing -->
+            <div class="social-sharing mt-4">
+              <h4 class="fs-5 fs-md-4">Share this post:</h4>
+              <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.permalink }}" target="_blank" class="btn btn-primary btn-sm">
+                Share on Twitter
               </a>
-            </p>
-          </div>
-
-          <!-- Social Sharing -->
-          <div class="social-sharing mt-4">
-            <h4>Share this post:</h4>
-            <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.permalink }}" target="_blank" class="btn btn-primary">
-              Share on Twitter
-            </a>
-            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.permalink }}" target="_blank" class="btn btn-primary">
-              Share on Facebook
-            </a>
-          </div>
-
-          <!-- Navigation -->
-          <hr>
-          <a href="/blog/" class="btn btn-outline-secondary">« View More Posts</a>
-        </section>
-      </article>
-    </div>
-
-    <!-- Sidebar -->
-    <div class="col-lg-4">
-      <aside class="sidebar" style="position: sticky; top: 20px; max-width: 300px;"></aside>
-        <h4>Recent Posts</h4>
-        <ul class="list-unstyled">
-          {% for post in site.posts %}
-          <li>
-            <a href="{{ post.url }}" class="text-decoration-none">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </aside>
+              <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.permalink }}" target="_blank" class="btn btn-primary btn-sm">
+                Share on Facebook
+              </a>
+            </div>
+  
+            <!-- Navigation -->
+            <hr>
+            <a href="/blog/" class="btn btn-outline-secondary btn-sm">« View More Posts</a>
+          </section>
+        </article>
+      </div>
+  
+      <!-- Sidebar -->
+      <div class="col-lg-4 col-md-12 mt-4 mt-lg-0">
+        <aside class="sidebar" style="position: sticky; top: 20px;">
+          <h4 class="fw-bold fs-5 fs-md-4">Recent Posts</h4>
+          <ul class="list-unstyled">
+            {% for post in site.posts %}
+            <li class="mb-2">
+              <a href="{{ post.url }}" class="text-decoration-none fs-6 fs-md-5">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </aside>
+      </div>
     </div>
   </div>
-</div>

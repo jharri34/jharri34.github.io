@@ -3,7 +3,7 @@ layout: posts
 title: Building a Portfolio
 ---
 
-# Building a Portfolio with Jekyll, GitHub Pages, and Bootstrap
+Building a Portfolio with Jekyll, GitHub Pages, and Bootstrap
 
 In this post, I’ll walk you through how I created this portfolio using Jekyll, GitHub Pages, Bootstrap 5, Sass/SCSS, and Ruby. If you’re looking to create a developer portfolio, this might be what you need.
 

@@ -3,24 +3,54 @@
  {% include head.html %}
   <body class="bg-light">
 
-    <header class="masthead" style="background-image: url('/assets/img/hero.jpg');">
-        <div class="container position-relative px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <div class="site-heading">
-                        <h1>Your Awesome Site</h1>
-                        <span class="subheading">A place for your thoughts and projects.</span>
-                    </div>
-                </div>
-            </div>
+    <header class="hero-section" style="background-image: url('/assets/img/hero.jpg');">
+        <div class="hero-content">
+            <h1>J. Harris</h1>
+            <span class="subheading">Principal AI Architect | DevOps & Automation Expert | Full-Stack Engineer</span>
+            <p class="scroll-indicator">Scroll to explore</p>
         </div>
     </header>
-    
-    {% include header.html %}
-    <main style="min-height: 125vh; padding-top: 200px;">
-      {{ content }}
+
+    <main class="main-content">
+      <section id="what-i-bring" class="content-section">
+          <div class="container">
+              <h2>What I Bring to the Table</h2>
+              <p>As a Principal AI Architect, I bridge AI architecture, automation engineering, and full-stack development. My expertise spans scalable AI-driven solutions, microservices, CI/CD, infrastructure automation, and cloud resource optimization across AWS, GCP, and Azure.</p>
+              <p>I focus on building high-performance systems that deliver real-time insights and seamless operational efficiency, ensuring rapid and reliable releases in complex cloud environments.</p>
+              <!-- More detailed skills/expertise can go here -->
+          </div>
+      </section>
+
+      <section id="career-highlights" class="content-section bg-light-gray">
+          <div class="container">
+              <h2>Career Highlights</h2>
+              <div class="row">
+                  <div class="col-md-6">
+                      <h3>Latest Projects</h3>
+                      <ul>
+                          <li>**Semantic Knowledge Explorer:** Leveraging LLMs and LanceDB for conceptual embedding and semantic search in digital libraries.</li>
+                          <li>**BookOrganizer:** Python script for organizing digital books with rich feedback and async operations.</li>
+                          <li>**AudiobookCopier:** Streamlining audiobook management with automated copying and metadata handling.</li>
+                          <li>**Photo Sorter:** Command-line tool for automated photo organization by date and type.</li>
+                      </ul>
+                  </div>
+                  <div class="col-md-6">
+                      <h3>Key Portfolio Items</h3>
+                      <ul>
+                          <li>**ALKEME Insurance (Principal AI Architect):** Leading AI/Cloud/Automation initiatives.</li>
+                          <li>**Georgia Tech Research Institute (Research Scientist I):** Large-scale application development, CI/CD, monitoring.</li>
+                          <li>**University of Alabama (Lead Software Developer):** Web/mobile app dev, high-performance computing.</li>
+                          <!-- Add more concise highlights from other portfolio items -->
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      {{ content }} {# This will be the rest of the page content #}
     </main>
-  
+
+    {% include header.html %} {# Moved header include after hero and main content #}
     {% include footer.html %}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/main.js"></script>

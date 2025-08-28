@@ -9,7 +9,7 @@ image: /img/BBVA.png
 tags: Java Selenium Maven Cucumber TestNG Bamboo RestAssured Appium
 ---
 
-![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+<img src="/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg" alt="Portfolio Item" style="max-width: 100%; height: auto;">
 
 
 - **Automated Testing**:

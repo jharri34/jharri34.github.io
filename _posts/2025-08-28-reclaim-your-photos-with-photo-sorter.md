@@ -6,7 +6,7 @@ categories: [projects, python, photography]
 tags: [photos, organization, automation, cli, media]
 ---
 
-![Photo Organization](/assets/img/alatumcode-PNbDkQ2DDgM-unsplash.jpg)
+<img src="/assets/img/alatumcode-PNbDkQ2DDgM-unsplash.jpg" alt="Photo Organization" style="max-width: 100%; height: auto;">
 
 
 Is your digital photo collection a sprawling mess of unsorted images, making it impossible to find that one cherished memory? The **Photo Sorter** is here to bring order to your visual world.

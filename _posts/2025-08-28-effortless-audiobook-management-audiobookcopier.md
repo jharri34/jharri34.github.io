@@ -6,7 +6,7 @@ categories: [projects, python, audiobooks]
 tags: [audiobooks, python, automation, organization, media]
 ---
 
-![Audiobook Management](/assets/img/alatumcode-PNbDkQ2DDgM-unsplash.jpg)
+<img src="/assets/img/alatumcode-PNbDkQ2DDgM-unsplash.jpg" alt="Audiobook Management" style="max-width: 100%; height: auto;">
 
 
 Are your audiobook files scattered across various folders, making it a chore to manage your listening library? The **AudiobookCopier** is here to simplify your life.

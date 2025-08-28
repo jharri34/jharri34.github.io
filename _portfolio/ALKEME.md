@@ -7,7 +7,7 @@ dates: "Aug 2025 - Present · 1 mo"
 logo: "/assets/img/alkeme_logo.png" # Placeholder for logo path
 ---
 
-![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+<img src="/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg" alt="Portfolio Item" style="max-width: 100%; height: auto;">
 
 
 ## Principal AI Architect

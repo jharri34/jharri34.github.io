@@ -9,7 +9,7 @@ image: /img/BIG.jpeg
 tags:  Node CSS3 JQuery
 ---
 
-![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+<img src="/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg" alt="Portfolio Item" style="max-width: 100%; height: auto;">
 
 
 

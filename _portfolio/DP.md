@@ -9,7 +9,7 @@ image: /img/DP.jpeg
 tags:  Docusign Webpack JQuery Rails Django AngularJs
 ---
 
-![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+<img src="/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg" alt="Portfolio Item" style="max-width: 100%; height: auto;">
 
 ## Key Contributions
 

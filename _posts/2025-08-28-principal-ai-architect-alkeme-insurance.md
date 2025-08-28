@@ -6,7 +6,7 @@ categories: [career, AI, architecture, cloud, automation]
 tags: [AI, MachineLearning, CloudArchitecture, DevOps, FullStack, Microservices, AWS, GCP, Azure, Kubernetes, CI/CD, Automation, Leadership]
 ---
 
-![AI Architect](/assets/img/alatumcode-PNbDkQ2DDgM-unsplash.jpg)
+<img src="/assets/img/alatumcode-PNbDkQ2DDgM-unsplash.jpg" alt="AI Architect" style="max-width: 100%; height: auto;">
 
 I'm thrilled to announce my new role as **Principal AI Architect** at **ALKEME Insurance**! This position represents an exciting opportunity to lead the charge in designing and implementing scalable, automated, and AI-driven solutions within complex cloud environments. My work here is at the intersection of cutting-edge AI architecture, robust automation engineering, and comprehensive full-stack development, all aimed at building high-performance systems that deliver real-time insights and unparalleled operational efficiency.
 

@@ -6,7 +6,7 @@ categories: [projects, AI, knowledge-management]
 tags: [AI, LLM, embeddings, semantic-search, knowledge-graph, learning, research]
 ---
 
-![Knowledge Explorer](/assets/img/alatumcode-PNbDkQ2DDgM-unsplash.jpg)
+<img src="/assets/img/alatumcode-PNbDkQ2DDgM-unsplash.jpg" alt="Knowledge Explorer" style="max-width: 100%; height: auto;">
 
 
 In today's information-rich world, simply collecting documents isn't enough. The real challenge lies in **synthesizing knowledge**, understanding the relationships between ideas, and discovering insights hidden across vast amounts of text. This is the core problem the **Semantic Knowledge Explorer** aims to solve.

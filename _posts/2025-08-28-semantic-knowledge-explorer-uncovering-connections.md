@@ -6,6 +6,9 @@ categories: [projects, AI, knowledge-management]
 tags: [AI, LLM, embeddings, semantic-search, knowledge-graph, learning, research]
 ---
 
+![Knowledge Explorer](/assets/img/alatumcode-PNbDkQ2DDgM-unsplash.jpg)
+
+
 In today's information-rich world, simply collecting documents isn't enough. The real challenge lies in **synthesizing knowledge**, understanding the relationships between ideas, and discovering insights hidden across vast amounts of text. This is the core problem the **Semantic Knowledge Explorer** aims to solve.
 
 Inspired by the concept of "knowledge hacking" and a desire to fundamentally change how we learn, this project is designed to be a smart assistant for researchers, students, and anyone looking to deeply engage with their digital library.

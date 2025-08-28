@@ -8,6 +8,9 @@ end_date:  Nov. 2023
 image: /img/GTRI.jpeg
 tags: Java Groovy Grails Spring Javascript PostgreSql Docker Kubernetes Helm AWS CloudFormation Terraform Ansible Jenkins Rancher Prometheus Grafana
 ---
+
+![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+
 ## Key Contributions
 
 - **Large-Scale Application Development**:

@@ -9,6 +9,9 @@ image: /img/google.png
 tags: Angular Handlebars Ruby Python Java Bash
 ---
 
+![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+
+
 ## Key Contributions
 
 - **Scripting and Automation**:

@@ -9,6 +9,9 @@ image: /img/DP.jpeg
 tags: Python Java HTML5 CSS3 JavaScript 
 ---
 
+![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+
+
 ## Key Contributions
 
 - **Coding Education**:

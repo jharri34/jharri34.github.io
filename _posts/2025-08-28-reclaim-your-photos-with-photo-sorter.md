@@ -6,6 +6,9 @@ categories: [projects, python, photography]
 tags: [photos, organization, automation, cli, media]
 ---
 
+![Photo Organization](/assets/img/alatumcode-PNbDkQ2DDgM-unsplash.jpg)
+
+
 Is your digital photo collection a sprawling mess of unsorted images, making it impossible to find that one cherished memory? The **Photo Sorter** is here to bring order to your visual world.
 
 This command-line tool is designed to automatically organize your photos into a clean, date-based folder structure, making your photo library easily navigable and enjoyable again.

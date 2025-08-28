@@ -11,6 +11,9 @@ tags: Python Java TensorFlow PyTorch Keras CUDA Java Scikit-Learn Docker Kuberne
 
 ---
 
+![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+
+
 ## Projects 
 
 ### SendEdge (January 2025)

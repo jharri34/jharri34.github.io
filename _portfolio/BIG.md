@@ -9,6 +9,9 @@ image: /img/BIG.jpeg
 tags:  Node CSS3 JQuery
 ---
 
+![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+
+
 
 - **Interactive Marketing Campaigns**:
   - Developed and maintained interactive marketing campaigns for multiple clients using Node.js, React, Sass, CSS3, and jQuery.

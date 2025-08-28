@@ -9,6 +9,9 @@ image: /img/BBVA.png
 tags: Java Selenium Maven Cucumber TestNG Bamboo RestAssured Appium
 ---
 
+![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+
+
 - **Automated Testing**:
   - Developed automated test cases using Gherkin syntax and Java with Selenium WebDriver, Maven, Cucumber, and TestNG.
   - Leveraged Bamboo for continuous integration, running nightly automation scripts to ensure code quality and stability.

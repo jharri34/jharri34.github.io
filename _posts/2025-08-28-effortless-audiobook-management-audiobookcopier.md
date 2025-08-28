@@ -6,6 +6,9 @@ categories: [projects, python, audiobooks]
 tags: [audiobooks, python, automation, organization, media]
 ---
 
+![Audiobook Management](/assets/img/alatumcode-PNbDkQ2DDgM-unsplash.jpg)
+
+
 Are your audiobook files scattered across various folders, making it a chore to manage your listening library? The **AudiobookCopier** is here to simplify your life.
 
 This straightforward Python script is designed for one purpose: to efficiently find and copy your `.m4b` and `.m4a` audiobook files from a source to a designated destination, ensuring your collection is neatly organized and ready for listening.

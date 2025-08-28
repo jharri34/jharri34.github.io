@@ -8,6 +8,9 @@ end_date:  Nov. 2016
 image: /img/DP.jpeg
 tags:  Docusign Webpack JQuery Rails Django AngularJs
 ---
+
+![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+
 ## Key Contributions
 
 - **Digital Workflow Management**:

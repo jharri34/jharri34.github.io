@@ -7,6 +7,9 @@ dates: "Aug 2025 - Present · 1 mo"
 logo: "/assets/img/alkeme_logo.png" # Placeholder for logo path
 ---
 
+![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+
+
 ## Principal AI Architect
 
 **ALKEME Insurance** · Full-time

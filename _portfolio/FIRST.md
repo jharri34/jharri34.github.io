@@ -9,6 +9,9 @@ image: /img/FIRST.jpeg
 tags: C Assembly 
 ---
 
+![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+
+
 ## Key Contributions
 
 - **FIRST Robotics Curriculum**:

@@ -9,6 +9,9 @@ image: /img/influencehealth.png
 tags: Bash Ansible Octopus Java Ruby Python Perl Bash Azure 
 ---
 
+![Portfolio Item](/assets/img/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg)
+
+
 ## Key Contributions
 
 - **Scripting and Automation**:

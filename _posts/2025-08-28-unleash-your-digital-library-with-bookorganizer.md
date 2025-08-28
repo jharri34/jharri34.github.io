@@ -6,6 +6,9 @@ categories: [projects, python, organization]
 tags: [books, digital-library, python, rich, asyncio, organization, automation]
 ---
 
+![Digital Library Organization](/assets/img/alatumcode-PNbDkQ2DDgM-unsplash.jpg)
+
+
 Managing a growing collection of digital books can quickly become a chore. PDFs, EPUBS, MOBIs – they scatter across your downloads folder, making it hard to find what you need. That's where **BookOrganizer** comes in.
 
 We've just launched this new Python script designed to bring order to your digital literary chaos. BookOrganizer isn't just another file copier; it's built with efficiency and user experience in mind, leveraging modern Python features to make organizing your library a breeze.
